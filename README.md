@@ -12,19 +12,19 @@
   *Python (Pandas, Matplotlib)** — очистка данных, расчёт выручки, ABC-анализ
   *Power BI** — интерактивный дашборд
 
- 📁 Структура репозитория
- olist-ecommerce-analysis/
+ 📁 Структура репозитория:
+
+olist-ecommerce-analysis/
 │
-├── olist_analysis.ipynb # Полный анализ на Python (очистка, выручка, ABC)
-├── dashboard_screenshot.png # Скриншот дашборда
-├── olist_dashboard.pbix # Файл дашборда Power BI
-├── olist_dashboard.pdf # Файл дашборда PDF
-├── README.md # Описание проекта
+├── olist_analysis.ipynb          # Полный анализ на Python
+├── dashboard_screenshot.png       # Скриншот дашборда
+├── olist_dashboard.pbix            # Файл дашборда Power BI
+├── README.md                       # Описание проекта
 │
 └── data/
-├── abc.csv # Результаты ABC-анализа
-├── category_agg.csv # Выручка по категориям
-└── orders_payments.csv # Заказы с выручкой и датами
+    ├── abc.csv
+    ├── category_agg.csv
+    └── orders_payments.csv
 
 
   Дашборд (ключевые элементы)
