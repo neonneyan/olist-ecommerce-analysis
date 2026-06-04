@@ -14,17 +14,14 @@
 
  📁 Структура репозитория:
 
-olist-ecommerce-analysis/
-│
-├── olist_analysis.ipynb          # Полный анализ на Python
-├── dashboard_screenshot.png       # Скриншот дашборда
-├── olist_dashboard.pbix            # Файл дашборда Power BI
-├── README.md                       # Описание проекта
-│
-└── data/
-    ├── abc.csv
-    ├── category_agg.csv
-    └── orders_payments.csv
+- **olist_analysis.ipynb** — полный анализ на Python
+- **dashboard_screenshot.png** — скриншот дашборда
+- **olist_dashboard.pbix** — файл дашборда Power BI
+- **README.md** — описание проекта
+- **data/**
+  - "abc.csv" — результаты ABC-анализа
+  - "category_agg.csv" — выручка по категориям
+  - "orders_payments.csv" — заказы с выручкой и датами
 
 
   Дашборд (ключевые элементы)
