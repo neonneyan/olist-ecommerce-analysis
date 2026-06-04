@@ -1,2 +1,55 @@
-# olist-ecommerce-analysis
-Analysis of revenue, seasonality, and ABC segmentation for Olist e-commerce platform. Power BI dashboard included.
+ Анализ e-commerce платформы Olist
+
+ 📌 Цель проекта
+Определить ключевые категории товаров, сезонность выручки и провести ABC-анализ для бразильской e-commerce платформы Olist.
+
+ 📊 Данные
+- Brazilian E-Commerce Public Dataset by Olist
+- 99 441 заказ
+- Общая выручка: ~16 млн BRL
+
+ 🛠️ Инструменты
+  *Python (Pandas, Matplotlib)** — очистка данных, расчёт выручки, ABC-анализ
+  *Power BI** — интерактивный дашборд
+
+ 📁 Структура репозитория
+ olist-ecommerce-analysis/
+│
+├── olist_analysis.ipynb # Полный анализ на Python (очистка, выручка, ABC)
+├── dashboard_screenshot.png # Скриншот дашборда
+├── olist_dashboard.pbix # Файл дашборда Power BI
+├── olist_dashboard.pdf # Файл дашборда PDF
+├── README.md # Описание проекта
+│
+└── data/
+├── abc.csv # Результаты ABC-анализа
+├── category_agg.csv # Выручка по категориям
+└── orders_payments.csv # Заказы с выручкой и датами
+
+
+  Дашборд (ключевые элементы)
+- KPI карточки: Общая выручка, количество заказов, средний чек
+- Сезонность: график выручки по месяцам
+- Топ-10 категорий: выручка по категориям товаров
+- Срез по ABC: фильтр категорий A (ядро), B или C
+
+  Ключевые выводы
+1. Выручка распределена равномерно — 16 A-категорий дают 80% выручки (нет зависимости от одной категории).
+2. Топ-3 категории: "beleza_saude" (1,26 млн), "relogios_presentes" (1,20 млн), "cama_mesa_banho" (1,04 млн BRL).
+3. Сезонность: явный пик в 4-м квартале (ноябрь–декабрь), спад в начале года.
+4. ABC-сегментация:
+   - A (16 категорий) — ядро бизнеса, 80% выручки
+   - B (14 категорий) — потенциал роста
+   - C (остальные) — кандидаты на оптимизацию
+
+ Скриншот дашборда
+![Скриншот дашборда](dashboard_screenshot.png)
+
+ Как открыть дашборд
+1. Скачайте файл "olist_dashboard.pbix"
+2. Откройте в Power BI Desktop
+3. Используйте срез по ABC и смотрите графики
+
+   Автор
+  neoneyan
+
